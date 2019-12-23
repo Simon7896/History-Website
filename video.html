@@ -18,8 +18,16 @@
     <div class="main-title">
       <h1>Mao's Cultural Revolution</h1>
     </div>
-    <div class="video">
-      <iframe src="https://www.youtube.com/embed/W-ycLjk8sH0" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+    <div class="video" align="center">
+      <div class="thumbnails">
+        <img onmousedown='getElementById("vid-preview").src = "https://www.youtube.com/embed/LqJ9IpWOYQA"' src="https://img.youtube.com/vi/LqJ9IpWOYQA/0.jpg">
+        <img onmousedown="getElementById('vid-preview').src=getElementById('img2').src" id="img2" src="https://cdn.static-economist.com/sites/default/files/images/print-edition/20160514_BKP001_0.jpg"/>
+        <img onmousedown="getElementById('vid-preview').src=getElementById('img3').src" id="img3" src="http://i2.cdn.turner.com/cnnnext/dam/assets/160505155545-china-cultural-revolution-7-super-169.jpg"/>
+        <img onmousedown="getElementById('vid-preview').src=getElementById('img4').src" id="img4" src="http://oldpics.net/wp-content/uploads/2019/01/moaism_retro_oldpicsnet.jpg"/>
+      </div>
+      <div class="main-video">
+        <iframe id="vid-preview" src="https://www.youtube.com/embed/W-ycLjk8sH0" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+      </div>
     </div>
   </body>
 </html>
