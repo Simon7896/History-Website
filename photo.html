@@ -2,13 +2,12 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Mao's Cultural Revolution </title>
-    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="gallery.css" rel="stylesheet" type="text/css" />
     <link href="https://fonts.googleapis.com/css?family=Girassol&display=swap" rel="stylesheet">
   </head>
   <body>
-    <script src="script.js"></script>
     <div class="topnav">
       <a class="active" href="index.html">Home</a>
       <a href="video.html">Video</a>
@@ -18,17 +17,50 @@
     <div class="main-title">
       <h1>Mao's Cultural Revolution</h1>
     </div>
-        <div class="main-gallery" align="center">
-            <h3>Photo Gallery</h3>
-            <div class="thumbnails">
-                <img onmousedown="getElementById('preview').src=getElementById('img1').src" id="img1" src="https://ichef.bbci.co.uk/images/ic/640x360/p04dvygb.jpg"/>
-                <img onmousedown="getElementById('preview').src=getElementById('img2').src" id="img2" src="https://cdn.static-economist.com/sites/default/files/images/print-edition/20160514_BKP001_0.jpg"/>
-                <img onmousedown="getElementById('preview').src=getElementById('img3').src" id="img3" src="http://i2.cdn.turner.com/cnnnext/dam/assets/160505155545-china-cultural-revolution-7-super-169.jpg"/>
-                <img onmousedown="getElementById('preview').src=getElementById('img4').src" id="img4" src="http://oldpics.net/wp-content/uploads/2019/01/moaism_retro_oldpicsnet.jpg"/>
-            </div>
-            <div class="preview" align="center">
-                <img id="preview" src="https://ichef.bbci.co.uk/images/ic/640x360/p04dvygb.jpg" alt="" />
-            </div>
+    <div class="main-gallery">
+      <div class="row"> 
+        <div class="column">
+          <img class="myImg" src="http://africanagenda.net/wp-content/uploads/2016/02/P28_MAO_1500_308452k.jpg" alt="Snow">
+          <img onclick="modalFunc()" class="myImg" src="https://cdn.static-economist.com/sites/default/files/images/print-edition/20160514_BKP001_0.jpg" alt="Snow">
+          <img class="myImg" src="https://namvietnews.files.wordpress.com/2011/06/mao-1966-great-proletarian-cultural-revolution1.jpg" alt="Snow">
+          <img class="myImg" src="http://www.ejinsight.com/wp-content/uploads/2016/05/1307328_c3af14ccb3557a79d241ba4bda88b941.jpg" alt="Snow">
+          <img class="myImg" src="https://static01.nyt.com/images/2016/05/14/world/asia/20160515CREXPLAINER-slide-9YO9/20160515CREXPLAINER-slide-9YO9-superJumbo.jpg" alt="Snow">
+          <img class="myImg" src="https://iamyouasheisme.files.wordpress.com/2010/05/purge_mao.jpg" alt="Snow" style="width:100%;max-width:300px">
+          <img class="myImg" src="https://thechinagirls.files.wordpress.com/2016/06/maos-lrb-with-school-kids.jpg" alt="Snow">
         </div>
+        <div class="column">
+          <img class="myImg" src="https://alphahistory.com/chineserevolution/wp-content/uploads/2013/05/redguardstiananmen.jpg" alt="Snow">
+          <img class="myImg" src="https://secure.i.telegraph.co.uk/multimedia/archive/01492/field_1492447i.jpg" alt="Snow">
+          <img class="myImg" src="http://oldpics.net/wp-content/uploads/2019/01/moaism_retro_oldpicsnet.jpg" alt="Snow">
+          <img class="myImg" src="http://www.msnbc.com/sites/msnbc/files/styles/ratio--3-2--770x513/public/li680428_a_copy.jpg?itok=WPaaSFNr" alt="Snow">
+          <img class="myImg" src="http://i2.cdn.turner.com/cnnnext/dam/assets/160505155545-china-cultural-revolution-7-super-169.jpg" alt="Snow">
+          <img class="myImg" src="https://i.dailymail.co.uk/i/pix/2016/05/16/article-urn:publicid:ap.org:c5fb052a5ace4093a8c2230a0b06ee3a-H9CJkDu3D7205440fbede0d8ebe-46_634x440.jpg" alt="Snow">
+        </div> 
+        <div class="column">
+          <img class="myImg" src="http://africanagenda.net/wp-content/uploads/2016/02/P28_MAO_1500_308452k.jpg" alt="Snow">
+          <img class="myImg" src="https://cdn.static-economist.com/sites/default/files/images/print-edition/20160514_BKP001_0.jpg" alt="Snow">
+          <img class="myImg" src="https://namvietnews.files.wordpress.com/2011/06/mao-1966-great-proletarian-cultural-revolution1.jpg" alt="Snow">
+          <img class="myImg" src="http://www.ejinsight.com/wp-content/uploads/2016/05/1307328_c3af14ccb3557a79d241ba4bda88b941.jpg" alt="Snow">
+          <img class="myImg" src="https://static01.nyt.com/images/2016/05/14/world/asia/20160515CREXPLAINER-slide-9YO9/20160515CREXPLAINER-slide-9YO9-superJumbo.jpg" alt="Snow">
+          <img class="myImg" src="https://iamyouasheisme.files.wordpress.com/2010/05/purge_mao.jpg" alt="Snow">
+          <img class="myImg" src="https://thechinagirls.files.wordpress.com/2016/06/maos-lrb-with-school-kids.jpg" alt="Snow">
+        </div>
+        <div class="column">
+          <img class="myImg" src="https://alphahistory.com/chineserevolution/wp-content/uploads/2013/05/redguardstiananmen.jpg" alt="Snow">
+          <img class="myImg" src="https://secure.i.telegraph.co.uk/multimedia/archive/01492/field_1492447i.jpg" alt="Snow">
+          <img class="myImg" src="http://oldpics.net/wp-content/uploads/2019/01/moaism_retro_oldpicsnet.jpg" alt="Snow">
+          <img class="myImg" src="http://www.msnbc.com/sites/msnbc/files/styles/ratio--3-2--770x513/public/li680428_a_copy.jpg?itok=WPaaSFNr" alt="Snow">
+          <img class="myImg" src="http://i2.cdn.turner.com/cnnnext/dam/assets/160505155545-china-cultural-revolution-7-super-169.jpg" alt="Snow">
+          <img class="myImg" src="https://i.dailymail.co.uk/i/pix/2016/05/16/article-urn:publicid:ap.org:c5fb052a5ace4093a8c2230a0b06ee3a-H9CJkDu3D7205440fbede0d8ebe-46_634x440.jpg" alt="Snow">
+        </div>
+      </div>
+    </div>
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+    <span class="close">&times;</span>
+    <img class="modal-content" id="img01">
+    <div id="caption"></div>
+    </div>
+    <script src="script.js"></script>
   </body>
 </html>
