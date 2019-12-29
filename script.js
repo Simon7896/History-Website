@@ -4,9 +4,9 @@ var modal = document.getElementById("myModal");
 // Get the image and insert it inside the modal - use its "alt" text as a caption
 var modalImg = document.getElementById("img01");
 
-function modalFunc(){
+function showImage(source){
   modal.style.display = "block";
-  modalImg.src = this.src;
+  modalImg.src = source;
 }
 
 // Get the <span> element that closes the modal
