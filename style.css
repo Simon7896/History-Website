@@ -14,10 +14,20 @@
 }
 
 .activity_button button{
+  position: fixed;
+  bottom: 250px;
+  left: 700px;
   background-color: red;
+  color: white;
   border: none;
   font-size: 150%;
   padding: 20px 50px;
+  cursor: pointer;
+}
+
+.activity_button button:hover{
+  background-color: rgba(255, 0, 0, 0.6);
+  color: white;
 }
 
 .topnav {
