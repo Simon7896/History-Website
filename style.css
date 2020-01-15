@@ -6,27 +6,46 @@
   overflow: hidden;
 }
 
-.activity body {
-  background-image: url(https://i.pinimg.com/originals/2e/a5/45/2ea5450d2f8a41331e7101139a981cd5.jpg);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: 100%;
+.question{
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: scroll;
 }
 
 .main-title{
+  position: fixed;
+  top: 5%;
   text-align: left;
   font-family: 'Girassol', Arial, Helvetica, sans-serif;
+  margin: 0;
   padding-top: 10%;
   padding-left: 5%;
-  margin: 0;
-  width: inherit;
-  height: 800px;
+  width: 100%;
+  height: 100%;
   font-size: 280%;
   color: rgb(200, 50, 50);
   background-image: url(https://static01.nyt.com/images/2016/05/14/world/asia/20160515CREXPLAINER-slide-CYB7/20160515CREXPLAINER-slide-CYB7-articleLarge.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: 100% 100%;
+  background-size: 100% 100%;  
+  z-index: -1;
+}
+
+.quesiton-title h1 {
+  margin-top: 7%;
+  float: left;
+  width: 50%;
+  height: 100%;
+  text-align: left;
+  font-family: 'Girassol', Arial, Helvetica, sans-serif;
+  font-size: 260%;
+}
+
+.question-title img {
+  width: 50%;
+  float: right;
 }
 
 .activity_button button{
@@ -39,6 +58,7 @@
   font-size: 150%;
   padding: 20px 50px;
   cursor: pointer;
+  z-index: 10;
 }
 
 .activity_button button:hover{
@@ -52,6 +72,7 @@
   background-color: #333;
   width: 100%;
   overflow: hidden;
+  z-index: 2;
 }
 
 /* Style the links inside the navigation bar */
@@ -118,6 +139,7 @@
 .activity_start h1 {
   text-align: center;
   font-family: 'Girassol', cursive;
+  margin-top: 7%;
 }
 
 .activity_menu li {
