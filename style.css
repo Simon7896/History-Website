@@ -44,9 +44,15 @@
 }
 
 .question-title img {
-  margin: 0 0;
+  margin: 60px 0px 0px 0px;
   width: 50%;
   float: right;
+}
+
+.question-text p {
+  font-family: 'Oswald', sans-serif;
+  font-size: 24px;
+  margin-right: 3%;
 }
 
 .activity_button button{
@@ -124,6 +130,10 @@
   width: 800px;
 }
 
+.video {
+  margin-top: 10%;
+}
+
 .video .thumbnails iframe{
   height: 80px;
   border: 4px solid #333;
@@ -135,23 +145,34 @@
   list-style-type: none;
   margin: 0 auto;
   padding: 0;
+  overflow: hidden;
+}
+
+.activity_start {
+  background-image: url(https://cdn.britannica.com/25/91425-050-150341F7/Mao-Zedong-troops-Tiananmen-Square-Beijing-August-1966.jpg);
+  background-repeat: no-repeat;
+  background-position: fixed;
+  background-size: cover;
+  width: 100%;
+  height: 1000px;
+  overflow: hidden;
 }
 
 .activity_start h1 {
   text-align: center;
   font-family: 'Girassol', cursive;
-  margin-top: 7%;
+  margin-top: 48px;
 }
 
 .activity_menu li {
-  margin: 10% 10% 10% 10%;
-  width: inherit;
+  margin: 80px 80px 80px 80px;
+  width: 100%;
 }
 
 .activity_menu li a{
   background: rgb(200, 50, 50);
   text-align: center;
-  padding: 3% 1%;
+  padding: 20px 20px;
   color: white;
   text-decoration: none;
 }
